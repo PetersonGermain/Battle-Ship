@@ -907,7 +907,6 @@ GameObject:
   - component: {fileID: 3905509664898971170}
   - component: {fileID: 5981409285930457027}
   - component: {fileID: 4911247362357593660}
-  - component: {fileID: 4511100019623402118}
   m_Layer: 0
   m_Name: S1
   m_TagString: Untagged
@@ -926,7 +925,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4993735329541990782}
   - {fileID: 1739904026280324624}
@@ -1026,22 +1025,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4511100019623402118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8824585687457491105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c97e5b5b11f84a32ba5288a3a3bda95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Joueur
-  ShowTopMostFoldoutHeaderGroup: 1
-  bateau: {fileID: 8824585687457491105}
+  m_Size: {x: 13.448596, y: 17.28648, z: 80.294075}
+  m_Center: {x: 1.7387056, y: 8.143243, z: -5.4744954}
 --- !u!1 &9023581636400867220
 GameObject:
   m_ObjectHideFlags: 0

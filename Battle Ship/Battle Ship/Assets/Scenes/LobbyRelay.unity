@@ -3115,6 +3115,7 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   panelDeConnection: {fileID: 1978339898}
   panelAttente: {fileID: 340371742}
+  bateau: {fileID: 8824585687457491105, guid: d561f5c9055986940a8d49df84a6e4a0, type: 3}
 --- !u!114 &1472319309
 MonoBehaviour:
   m_ObjectHideFlags: 0
