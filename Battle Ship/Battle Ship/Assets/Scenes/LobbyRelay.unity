@@ -611,7 +611,6 @@ GameObject:
   - component: {fileID: 340371745}
   - component: {fileID: 340371744}
   - component: {fileID: 340371743}
-  - component: {fileID: 340371747}
   m_Layer: 5
   m_Name: PannelAttente
   m_TagString: Untagged
@@ -706,31 +705,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1389, y: 642}
   m_SizeDelta: {x: 2778, y: 1284}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &340371747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340371742}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3935815912
-  InScenePlacedSourceGlobalObjectIdHash: 0
-  DeferredDespawnTick: 0
-  Ownership: 1
-  AlwaysReplicateAsRoot: 0
-  SynchronizeTransform: 1
-  ActiveSceneSynchronization: 0
-  SceneMigrationSynchronization: 0
-  SpawnWithObservers: 1
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
-  SyncOwnerTransformWhenParented: 1
-  AllowOwnerToParent: 0
 --- !u!1 &426856825
 GameObject:
   m_ObjectHideFlags: 0
@@ -4565,7 +4539,6 @@ GameObject:
   - component: {fileID: 1978339901}
   - component: {fileID: 1978339900}
   - component: {fileID: 1978339899}
-  - component: {fileID: 1978339903}
   m_Layer: 5
   m_Name: PannelConnection
   m_TagString: Untagged
@@ -4661,31 +4634,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1389, y: 642}
   m_SizeDelta: {x: 2778, y: 1284}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1978339903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1978339898}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 1243403502
-  InScenePlacedSourceGlobalObjectIdHash: 0
-  DeferredDespawnTick: 0
-  Ownership: 1
-  AlwaysReplicateAsRoot: 0
-  SynchronizeTransform: 1
-  ActiveSceneSynchronization: 0
-  SceneMigrationSynchronization: 0
-  SpawnWithObservers: 1
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
-  SyncOwnerTransformWhenParented: 1
-  AllowOwnerToParent: 0
 --- !u!1 &2054446009
 GameObject:
   m_ObjectHideFlags: 0
